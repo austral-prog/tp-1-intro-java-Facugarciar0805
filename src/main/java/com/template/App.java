@@ -73,3 +73,13 @@ public class App {
         for (int j : array) {
             sum += j;
         }
+        return sum;
+    }
+
+    // 10. Convert Celsius to Fahrenheit
+    public double celsiusToFahrenheit(double celsius) {
+        //(x °C × 9/5) + 32 = y °F
+        return celsius*1.8+32;
+
+    }
+}
